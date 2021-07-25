@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset= "utf-8">
+        <meta name= "viewport" content="width=device-width ,initial scale 1.0">
+        <title>voting website of sam</title>
+        <link rel= "stylesheet " href="vote.css">
+    </head>
+
+<body>
+    <div id="mainDiv">
+        <div id="upBar"><h1> Bharat Vote Online <img src="Indian emblem.jpg" height="30px"> </h1>
+            <h3>In collabration with Sam Softwares</h3></div>
+        <div id="innerDiv">  <h1>What is your vote?</h1> 
+            <br>
+            <p1>Make sure to click on 'Finish' button after you select your vote</p1>  
+
+    
+    
+            <button id="BJPbutton" class="vote" onclick=" modisVote()" >BJP here 
+                <img src="BJP.jpg" height="30px">
+            </button> 
+
+            <button id="TMCbutton" class="vote" onclick=" MamtaVote()">TMC here 
+                <img src="TMC.jpg" height="30px">
+            </button> 
+
+            <br>
+            <button class="vote" id="finish" onclick="finalVote()">Finish</button>
+            <br>
+            <p2>vote-</p><p  id="yourVote">your vote comes here</p2>
+            
+    
+        </div>
+    </div>
+    
+    <script src = "vote.js"></script>  
+</body>
+</html>

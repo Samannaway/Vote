@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+html{
+    font-size :70%;
+    
+}
+
+#mainDiv{
+    width: 100vw;
+    min-height:100vh;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    background-color:rgb(245, 249, 250);
+}
+
+#innerDiv{
+    width:50vw;
+    background-color:rgb(223, 231, 232);
+    padding:2rem 7rem;
+    border-radius:1rem;
+    box-shadow:0 1rem 1rem rgba(0,0,0,4);
+}
+
+.vote{
+    padding:1rem 3rem;
+    outline:none;
+    font-size:2rem;
+    font-size:400;
+    display:block;
+    margin:auto;
+    border:none;
+    text-transform:uppercase;
+    color:#fff;
+    background-color:rgb(78, 194, 212);
+    margin-top:4rem;
+}
+
+
+.vote:hover{
+    cursor: pointer;
+    background-color:rgb(62, 113, 214);
+}
+
+#finish{
+    padding:1rem 3rem;
+    outline:none;
+    font-size:2rem;
+    font-size:100;
+    display:block;
+    margin:auto;
+    border:none;
+    text-transform:uppercase;
+    color:#fff;
+    background-color:rgb(78, 194, 212);
+    margin-top:4rem;
+}
+
+
+#finish:hover{
+    cursor: pointer;
+    background-color:rgb(62, 113, 214);
+}
+
+#upBar{
+    width: 100vw;
+    min-height:14vh;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    display: grid;
+    place-items: center;
+    background-color:rgb(162, 227, 89);
+}
+
+.vote img:hover{
+    transition: all 0.25s;
+    height: 40px;
+}
+
+.vote:hover{
+    padding: 2rem 4rem;
+    transition: all 1s;
+}
+
+#finish:hover{
+    padding: 2rem 4rem;
+    transition: all 1s;
+}
